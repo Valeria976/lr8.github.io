@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url("хомячок.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  .container {
+    text-align: center;
+    background: linear-gradient(45deg, #fffd7e, #739de6) ;
+    
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  
+  .player {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    width: 135px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .player-score {
+    font-size: 24px;
+  }
+  
+  .numbers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .number {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #3b89ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 5px solid #1100ff;
+  }
+  #Button {
+    padding: 10px 20px;
+    background-color: #0400ff;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  #Button:hover {
+    background-color: #50a9fc;
+  }
+  #result {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .btn-back {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-back:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+button {
+    padding: 12px 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #2f00ff, #739de6); 
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #f500c0, #0011fc); 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+button:active {
+    transform: scale(0.50); 
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
